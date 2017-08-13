@@ -7,6 +7,7 @@
     tools:context="com.android.example.toast.MainActivity">
 
     <Button
+        android:id="@+id/btn_click_here"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
