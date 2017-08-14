@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast toast = new Toast(getApplicationContext());
                 toast.setText("This is a center toast message");
                 toast.setGravity(Gravity.CENTER, 0, 0);
-                toast.setDuration(Toast.LENGTH_SHORT);
+                toast.setDuration(Toast.LENGTH_LONG);
                 toast.show();
             }
         });
