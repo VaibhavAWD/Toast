@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast toast = new Toast(getApplicationContext());
-                toast.setText("This is a toast message");
+                toast.setText("This is a center toast message");
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.setDuration(Toast.LENGTH_SHORT);
                 toast.show();
